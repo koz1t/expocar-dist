@@ -83,6 +83,18 @@ function burgerBtn() {
     });
   }
 }
+function header() {
+  const headerNavLinks = document.querySelectorAll(".nav__link");
+  headerNavLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      const header2 = document.querySelector(".header--burger-active");
+      if (header2) {
+        const headerBurgerBtn = header2.querySelector(".header__burger-btn");
+        if (headerBurgerBtn) headerBurgerBtn.click();
+      }
+    });
+  });
+}
 function anchorsScroll() {
   const smoothScroll = (target) => {
     const element = document.querySelector(target);
@@ -800,4 +812,5 @@ document.addEventListener("DOMContentLoaded", function() {
   scrollingAnimation();
   countUp();
   simpleParallax();
+  header();
 });
