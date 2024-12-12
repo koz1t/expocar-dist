@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expocar Автосервис</title>
+    <script type="module" crossorigin src="./js/main.js"></script>
+    <link rel="stylesheet" crossorigin href="./css/style.css">
+  </head>
+  <body>
+    
+    <div class="wrapper">
+
+      <header class="header">
+        <div class="header__container container">
+          <a class="header__logo logo" href="/">
+            <img src="./images/logo.svg" alt="Expocar">
+          </a>
+          <div class="header__inner">
+            <nav class="header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#hero-section">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#about-section">О нас</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#services-section">Услуги</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__contacts contacts">
+              <address>
+                <a class="contacts__address" href="https://yandex.by/maps/-/CHEMROiM" target="_blank">г. Брест, ул. Лейтенанта Рябцева, дом 124, оф. 25</a>
+              </address>
+              <a class="contacts__phone" href="tel:+375297917403">+375 (29) - 791 - 74 - 03</a>
+            </div>
+          </div>
+          <button class="header__burger-btn burger-btn" data-target="header.header" data-class="header--burger-active">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        
+        <section class="hero-section section" id="hero-section">
+          <div class="hero-section__container section__container container">
+            <div class="hero-section__content">
+              <h1 class="hero-section__title title title--big">Ремонт грузовых<br> <small>и легковых автомобилей</small></h1>
+              <p class="hero-section__subtitle">Качественный и быстрый ремонт с гарантией!</p>
+              <a class="hero-section__contacts contacts" href="tel:+375297917403">
+                <strong class="contacts__title">Телефон для записи:</strong>
+                <span class="contacts__phone">+375 (29) - 791 - 74 - 03</span>
+              </a>
+              <div class="hero-section__images">
+                <div class="hero-section__image">
+                  <img src="./images/toyota-dyna.png" alt="toyota dyna">
+                </div>
+                <div class="hero-section__image">
+                  <img src="./images/lada-largus.png" alt="lada largus">
+                </div>
+              </div>
+            </div>
+            <div class="hero-section__watermark watermark watermark--center-bottom"><span>АВТО</span><span>СЕРВИС</span></div>
+            <a class="hero-section__content-arrow content-arrow" href="#services-section"></a>
+          </div>
+        </section>
+        <!-- /hero-section -->
+
+        <section class="services-section section" id="services-section">
+          <div class="services-section__container section__container container">
+            <div class="section__content-wrapper section__content-wrapper--center">
+              <h2 class="section__title title">Услуги автосервиса</h2>
+              <div class="section__text editor">
+                <p>Автосервис предоставляет большой спектр услуг, основные из которых представлены ниже</p>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="cards__items">
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/kompleksnaya-diagnostika.jpg" alt="Комплексная диагностика">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Комплексная диагностика</strong>
+                  </div>
+                </div>
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/remont-podveski-i-rulevogo-upravleniya.jpg" alt="Ремонт подвески и рулевого управления">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Ремонт подвески и рулевого управления</strong>
+                  </div>
+                </div>
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/zamena-remnej-grm.jpg" alt="Замена ремней ГРМ">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Замена ремней ГРМ</strong>
+                  </div>
+                </div>
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/zamena-scepleniya.jpg" alt="Замена сцепления">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Замена сцепления</strong>
+                  </div>
+                </div>
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/remont-tormoznoj-sistemy-i-supportov.jpg" alt="Ремонт тормозной системы и суппортов">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Ремонт тормозной системы и суппортов</strong>
+                  </div>
+                </div>
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/svarochnyj-remont.jpg" alt="Сварочный ремонт">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Сварочный ремонт</strong>
+                  </div>
+                </div>
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/zamena-masla-i-filtra.jpg" alt="Замена масла и фильтор">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Замена масла и фильтра</strong>
+                  </div>
+                </div>
+                <div class="cards__item">
+                  <div class="cards__item-image">
+                    <img src="./images/melko-srochnyj-remont.jpg" alt="Мелко срочный ремонт">
+                  </div>
+                  <div class="cards__item-content">
+                    <strong class="cards__item-title">Мелко срочный ремонт</strong>
+                  </div>
+                </div>
+              </div>
+              <a class="cards__btn btn" href="tel:+375297917403">
+                <div class="btn__contacts contacts">
+                  <strong class="contacts__title">Телефон для записи:</strong>
+                  <span class="contacts__phone">+375 (29) - 791 - 74 - 03</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="section__footer">
+            <div class="section__footer-container container">
+              <a class="content-arrow content-arrow--prev" href="#services-section"></a>
+              <strong class="section__footer-title"><small>Помощь с подбором</small><br> Автозапчастей</strong>
+              <div class="section__footer-watermark watermark watermark--center"><span>СТО</span><span>БРЕСТ</span></div>
+            </div>
+          </div>
+        </section>
+        <!-- /services-section -->
+
+        <section class="about-section section" id="about-section">
+          <div class="about-section__container section__container container">
+            <div class="overlap-content">
+              <div class="overlap-content__content section__content-wrapper">
+                <h2 class="overlap-content__title title">Как мы работаем?</h2>
+                <div class="overlap-content__text editor">
+                  <p>Почему стоит выбирать нас?</p>
+                </div>
+              </div>
+              <div class="overlap-content__row">
+                <div class="overlap-content__left">
+                  <div class="overlap-content__image">
+                    <img src="./images/cars.jpg" alt="Автосервис expocar">
+                  </div>
+                </div>
+                <div class="overlap-content__right">
+                  <ul class="numbered-list">
+                    <li class="numbered-list__item">
+                      <strong class="numbered-list__item-title">ЗАЯВКА</strong>
+                      <div class="numbered-list__item-text editor">
+                        <p>Оставьте нам заявку по телефону на нашем сайте</p>
+                      </div>
+                    </li>
+                    <li class="numbered-list__item">
+                      <strong class="numbered-list__item-title">ЗАПИСЬ</strong>
+                      <div class="numbered-list__item-text editor">
+                        <p>Даем консультацию и определяем дату и вермя ремонта вашего автомобил, а также конечную стоимость работ</p>
+                      </div>
+                    </li>
+                    <li class="numbered-list__item">
+                      <strong class="numbered-list__item-title">РЕМОНТ</strong>
+                      <div class="numbered-list__item-text editor">
+                        <p>Осуществляем ремонт и профилактику, диагностику автомобиля в нашем автосервисе</p>
+                      </div>
+                    </li>
+                    <li class="numbered-list__item">
+                      <strong class="numbered-list__item-title">ПРОВЕРКА И ОПЛАТА</strong>
+                      <div class="numbered-list__item-text editor">
+                        <p>Мастер сообщает о работе, клиент проверяет автомобиль и оплачивает ремонт</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="advantages">
+              <div class="advantages__wheel">
+                <img src="./images/wheel.png" alt="">
+              </div>
+              <div class="advantages__content">
+                <h2 class="advantages__title title">Сильные стороны автосервиса</h2>
+                <div class="advantages__text editor">
+                  <p>Почему стоит выбирать нас?</p>
+                </div>
+                <ul class="advantages__list">
+                  <li class="advantages__item">
+                    <div class="advantages__item-icon">
+                      <img src="data:image/svg+xml,%3csvg%20width='54'%20height='54'%20viewBox='0%200%2054%2054'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M44.9867%2038.8084L33.776%2027.5977L42.8753%2018.4984C45.8297%2019.1844%2049.0581%2018.3974%2051.3648%2016.091C53.8891%2013.5689%2054.5815%209.94199%2053.5213%206.77L49.2373%2011.0518C47.7217%2012.5718%2045.22%2012.5245%2043.6421%2010.9466C42.0705%209.37281%2042.0213%206.87107%2043.5346%205.35364L47.8164%201.07185C44.6512%200.00488192%2041.0261%200.701794%2038.4977%203.22834C36.1954%205.52834%2035.411%208.7563%2036.0989%2011.7156L26.9996%2020.8127L17.9044%2011.7175C18.5904%208.76081%2017.7992%205.53247%2015.4992%203.22796C12.9772%200.703673%209.35248%200.00901455%206.1805%201.06922L10.4623%205.35326C11.9801%206.86881%2011.935%209.37281%2010.3548%2010.9485C8.78105%2012.5223%206.28381%2012.5692%204.76188%2011.0559L0.479715%206.77226C-0.582748%209.93973%200.111911%2013.5693%202.64071%2016.0932C4.93845%2018.3977%208.16641%2019.1799%2011.128%2018.4962L20.2228%2027.5887L9.01436%2038.7972C6.97434%2038.6559%204.88961%2039.3329%203.33612%2040.8954C0.471074%2043.756%200.471074%2048.3961%203.33612%2051.2612C6.19214%2054.1195%2010.8346%2054.1195%2013.6951%2051.2612C15.2531%2049.7032%2015.9279%2047.6162%2015.7979%2045.5762L26.9996%2034.37L38.2103%2045.5807C38.0713%2047.6207%2038.7505%2049.7077%2040.3085%2051.2634C43.1668%2054.1262%2047.8115%2054.1262%2050.6721%2051.2634C53.5326%2048.4029%2053.5326%2043.7627%2050.6721%2040.8999C49.1137%2039.3423%2047.0267%2038.6653%2044.9867%2038.8084ZM9.50914%2049.802L5.78113%2048.8068L4.78817%2045.0788L7.51196%2042.3505L11.24%2043.3479L12.2374%2047.0737L9.50914%2049.802ZM48.2146%2048.8135L44.4889%2049.8065L41.7606%2047.0782L42.7558%2043.3525L46.4838%2042.355L49.2144%2045.0833L48.2146%2048.8135Z'%20fill='%23010002'/%3e%3c/svg%3e" alt="Гарантия на все выполненные работы">
+                    </div>
+                    <p class="advantages__description">Гарантия на все выполненные работы</p>
+                  </li>
+                  <li class="advantages__item">
+                    <div class="advantages__item-icon">
+                      <img src="./images/gears.svg" alt="Только качественные материалы">
+                    </div>
+                    <p class="advantages__description">Только качественные материалы</p>
+                  </li>
+                  <li class="advantages__item">
+                    <div class="advantages__item-icon">
+                      <img src="./images/wheel-repair.svg" alt="Выполнение работ точно в срок">
+                    </div>
+                    <p class="advantages__description">Выполнение работ точно в срок</p>
+                  </li>
+                  <li class="advantages__item">
+                    <div class="advantages__item-icon">
+                      <img src="data:image/svg+xml,%3csvg%20width='50'%20height='49'%20viewBox='0%200%2050%2049'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M42.9549%200.164062C41.5169%200.166172%2038.882%201.20156%2037.9233%202.27344H5.19711C1.82211%202.27344%201.82211%209.02344%205.19711%209.02344H37.9242C38.8827%2010.095%2041.5172%2011.1305%2042.955%2011.1328C44.761%2011.1302%2046.4289%209.74379%2047.332%208.17969H43.166L40.8457%205.64844L43.166%203.11719H47.334C46.4306%201.55256%2044.7616%200.165961%2042.9549%200.164062ZM6.88461%203.96094C7.81664%203.96094%208.57211%204.71641%208.57211%205.64844C8.57211%206.58046%207.81664%207.33594%206.88461%207.33594C5.95269%207.33594%205.19711%206.58046%205.19711%205.64844C5.19711%204.71641%205.95269%203.96094%206.88461%203.96094ZM14.876%2016.3008C14.0322%2016.3008%2013.4173%2016.7267%2012.7491%2017.2303C12.0808%2017.7338%2011.3801%2018.3845%2010.6354%2019.0939C9.18499%2020.4751%207.56594%2022.0776%206.03611%2023.1247L10.8251%2023.2444C12.0032%2021.0351%2012.7528%2018.985%2014.876%2018.1992H22.3643V23.533L24.2627%2023.5804V18.1992H26.6885C27.9014%2018.1992%2029.9525%2019.305%2032.0017%2020.9443C33.1073%2021.8288%2034.2233%2022.8437%2035.2835%2023.856L40.516%2023.9868L45.7608%2017.8677L44.3193%2016.6323L38.0716%2023.9211C36.6001%2022.463%2034.9126%2020.8418%2033.1878%2019.4619C31.018%2017.7264%2028.8506%2016.3008%2026.6885%2016.3008H14.876ZM3.06095%2024.9496C2.53413%2024.9505%201.8972%2025.2428%201.41426%2025.7259C0.930582%2026.2094%200.637695%2026.8477%200.637695%2027.375C0.637695%2028.7461%201.40509%2030.7774%202.39196%2032.3563C2.85127%2033.0914%203.35415%2033.7333%203.80313%2034.1823C3.80302%2034.1631%203.80176%2034.1443%203.80176%2034.125C3.80176%2030.816%206.5045%2028.1133%209.81348%2028.1133C13.1223%2028.1133%2015.8252%2030.816%2015.8252%2034.125C15.8252%2034.375%2015.808%2034.6211%2015.7781%2034.8633H35.9114C35.8805%2034.6184%2035.8648%2034.3718%2035.8643%2034.125C35.8643%2030.816%2038.567%2028.1133%2041.876%2028.1133C45.1849%2028.1133%2047.8877%2030.816%2047.8877%2034.125C47.8877%2034.375%2047.8705%2034.6211%2047.8406%2034.8633H48.8311L49.3621%2030.0828C49.351%2028.7304%2048.7002%2027.7641%2047.822%2027.0614C46.9361%2026.3527%2045.7783%2026.0039%2045.251%2026.0039H45.239L3.06095%2024.9496ZM9.81348%2030.0117C7.5305%2030.0117%205.7002%2031.842%205.7002%2034.125C5.7002%2036.408%207.5305%2038.2383%209.81348%2038.2383C12.0963%2038.2383%2013.9268%2036.408%2013.9268%2034.125C13.9268%2031.842%2012.0963%2030.0117%209.81348%2030.0117ZM41.876%2030.0117C39.593%2030.0117%2037.7627%2031.842%2037.7627%2034.125C37.7627%2036.408%2039.593%2038.2383%2041.876%2038.2383C44.1589%2038.2383%2045.9893%2036.408%2045.9893%2034.125C45.9893%2031.842%2044.1589%2030.0117%2041.876%2030.0117ZM19.2002%2036.7617V38.2383H30.8018V36.7617H19.2002ZM24.2627%2040.1367V44.9883H25.7393V40.1367H24.2627ZM20.5251%2046.8867L19.7868%2048.3633H30.215L29.4768%2046.8867H20.5251Z'%20fill='black'/%3e%3c/svg%3e" alt="Опытные механики, сертификаты">
+                    </div>
+                    <p class="advantages__description">Опытные механики, сертификаты</p>
+                  </li>
+                </ul>
+                <div class="advantages__additional">
+                  <p>Более <b data-countup="180">180</b> довольных клиентов</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /about-section -->
+
+        <div class="map" id="contacts">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/153/brest/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Брест</a><a href="https://yandex.by/maps/153/brest/house/ZkoYcA9iSUQBQFtofX11dX9jZg==/?ll=23.682392%2C52.144241&utm_medium=mapframe&utm_source=maps&z=19.53" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Лейтенанта Рябцева, 124 — Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/?ll=23.682392%2C52.144241&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxOTQxNTU3OTYxElPQkdC10LvQsNGA0YPRgdGMLCDQkdGA0Y3RgdGCLCDQstGD0LvRltGG0LAg0JvQtdC50YLRjdC90LDQvdGC0LAg0KDQsNCx0YbQsNCy0LAsIDEyNCIKDcZ0vUEVxJNQQg%2C%2C&z=19.53" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
+        <!-- /map -->
+
+      </main>
+      <!-- /main -->
+
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__main">
+            <a class="footer__logo logo" href="/">
+              <img src="./images/logo.svg" alt="">
+            </a>
+            <nav class="footer__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#hero-section">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#about-section">О нас</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#services-section">Услуги</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__contacts contacts">
+              <address>
+                <a class="contacts__address" href="https://yandex.by/maps/-/CHEMROiM" target="_blank">г. Брест, ул. Лейтенанта Рябцева, дом 124, оф. 25</a>
+              </address>
+              <a class="contacts__phone" href="tel:+375297917403">+375 (29) - 791 - 74 - 03</a>
+            </div>
+          </div>
+          <div class="footer__copyright">
+            <p class="footer__copyright-text"><span>Copyright 2024</span> © Все права защищены</p>
+            <a class="footer__copyright-text" href="https://internetsozdateli.by/" target="_blank">Создание и продвижение сайтов INTERNET<span>SOZDATELI</span></a>
+          </div>
+        </div>
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /wrapper -->
+
+
+  </body>
+</html>
